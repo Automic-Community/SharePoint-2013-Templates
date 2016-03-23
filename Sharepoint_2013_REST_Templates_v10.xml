@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<uc-export clientvers="10.0.0+hf.3.build.312">
+<CONN_CIT client="0100" name="SHAREPOINT.REST.CONN.CORE_TEMPLATE" system="AUTOMIC">
+<HEADER state="1">
+<Title>Sharepoint REST Connection Core Endpoints Template</Title>
+<Created>jenn pm on: 2013-10-01 15:52:10</Created>
+<Modified>jenn pm on: 2013-10-01 15:59:02      4 x</Modified>
+<LastUsed/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<CONN_CIT state="1">
+<citcont agentname="" jobtype="WEBSERVICE" text="REST">
+<cit cittype="4" icon="" id="" subtype="RESTCONNECTION" text="REST">
+<component con="0" enc="0" type="4" value="NTLM" xmlName="authMethod"/>
+<component con="0" enc="0" type="4" value="" xmlName="basicHost"/>
+<component con="0" enc="0" type="4" value="" xmlName="basicPort"/>
+<component con="0" enc="0" type="4" value="" xmlName="basicRealm"/>
+<component con="0" enc="0" type="4" value="30" xmlName="connectTimeout"/>
+<component con="0" enc="0" type="4" value="true" xmlName="followRedirects"/>
+<component con="0" enc="2" type="4" value="" xmlName="password"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyAuthMethod"/>
+<component con="0" enc="2" type="4" value="" xmlName="proxyPassword"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyPort"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyServer"/>
+<component con="0" enc="0" type="4" value="None" xmlName="proxyServerType"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyUser"/>
+<component con="0" enc="0" type="4" value="Represents a Collection of Sites" xmlName="resources_0_0"/>
+<component con="0" enc="0" type="4" value="site" xmlName="resources_0_1"/>
+<component con="0" enc="0" type="4" value="Changes" xmlName="resources_1_0"/>
+<component con="0" enc="0" type="4" value="getchanges(&amp;changequery#)" xmlName="resources_1_1"/>
+<component con="0" enc="0" type="4" value="Action on Recycle Bin" xmlName="resources_2_0"/>
+<component con="0" enc="0" type="4" value="RecycleBin" xmlName="resources_2_1"/>
+<component con="0" enc="0" type="4" value="Action on Collection of site Templates" xmlName="resources_3_0"/>
+<component con="0" enc="0" type="4" value="GetAvailableWebTemplates(languageid,includecrosslanguage)" xmlName="resources_3_1"/>
+<component con="0" enc="0" type="4" value="Regional Settings" xmlName="resources_4_0"/>
+<component con="0" enc="0" type="4" value="RegionalSettings" xmlName="resources_4_1"/>
+<component con="0" enc="0" type="4" value="60" xmlName="responseTimeout"/>
+<component con="0" enc="0" type="4" value="false" xmlName="usePreemptiveAuth"/>
+<component con="0" enc="0" type="4" value="domian\username" xmlName="user"/>
+<component con="0" enc="0" type="4" value="http://&lt;sitecollection&gt;/&lt;site&gt;/_api/web/" xmlName="webserviceEndpoint"/>
+</cit>
+</citcont>
+</CONN_CIT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</CONN_CIT>
+<CONN_CIT client="0100" name="SHAREPOINT.REST.CONN.LIST_TEMPLATE" system="AUTOMIC">
+<HEADER state="1">
+<Title>Sharepoint REST Connection List-related Endpoints Template</Title>
+<Created>jenn pm on: 2013-09-27 08:08:03</Created>
+<Modified>jenn pm on: 2013-10-01 15:53:27      6 x</Modified>
+<LastUsed/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<CONN_CIT state="1">
+<citcont agentname="" jobtype="WEBSERVICE" text="REST">
+<cit cittype="4" icon="" id="" subtype="RESTCONNECTION" text="REST">
+<component con="0" enc="0" type="4" value="NTLM" xmlName="authMethod"/>
+<component con="0" enc="0" type="4" value="" xmlName="basicHost"/>
+<component con="0" enc="0" type="4" value="" xmlName="basicPort"/>
+<component con="0" enc="0" type="4" value="" xmlName="basicRealm"/>
+<component con="0" enc="0" type="4" value="30" xmlName="connectTimeout"/>
+<component con="0" enc="0" type="4" value="true" xmlName="followRedirects"/>
+<component con="0" enc="2" type="4" value="" xmlName="password"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyAuthMethod"/>
+<component con="0" enc="2" type="4" value="" xmlName="proxyPassword"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyPort"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyServer"/>
+<component con="0" enc="0" type="4" value="None" xmlName="proxyServerType"/>
+<component con="0" enc="0" type="4" value="" xmlName="proxyUser"/>
+<component con="0" enc="0" type="4" value="Lists" xmlName="resources_0_0"/>
+<component con="0" enc="0" type="4" value="lists" xmlName="resources_0_1"/>
+<component con="0" enc="0" type="4" value="Action on List" xmlName="resources_1_0"/>
+<component con="0" enc="0" type="4" value="lists(&amp;listid#)" xmlName="resources_1_1"/>
+<component con="0" enc="0" type="4" value="Action on Object in List" xmlName="resources_2_0"/>
+<component con="0" enc="0" type="4" value="lists(&amp;listid#)/items(&amp;itemsid#)" xmlName="resources_2_1"/>
+<component con="0" enc="0" type="4" value="Action on a List Field" xmlName="resources_3_0"/>
+<component con="0" enc="0" type="4" value="lists(&amp;listid#)/fields(&amp;fiieldid#)" xmlName="resources_3_1"/>
+<component con="0" enc="0" type="4" value="60" xmlName="responseTimeout"/>
+<component con="0" enc="0" type="4" value="false" xmlName="usePreemptiveAuth"/>
+<component con="0" enc="0" type="4" value="domian\username" xmlName="user"/>
+<component con="0" enc="0" type="4" value="http://&lt;sitecollection&gt;/&lt;site&gt;/_api/web/" xmlName="webserviceEndpoint"/>
+</cit>
+</citcont>
+</CONN_CIT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</CONN_CIT>
+<JOBS_CIT AttrType="CIT" client="0100" name="SHAREPOINT.REST.DELETE_LISTS" system="AUTOMIC">
+<XHEADER state="1">
+<Title>Delete the sharepoint list with the provided ID.</Title>
+<Created>jenn pm on: 2013-10-01 15:46:49</Created>
+<Modified>jenn pm on: 2013-10-01 15:52:02      3 x</Modified>
+<LastUsed/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<ExtRepDef>1</ExtRepDef>
+<ExtRepAll>0</ExtRepAll>
+<ExtRepNone>0</ExtRepNone>
+<Active>1</Active>
+<OH_SubType/>
+</XHEADER>
+<OUTPUTREG state="1" tidy="1">
+<FileReg/>
+</OUTPUTREG>
+<SYNCREF state="1">
+<Syncs/>
+</SYNCREF>
+<ATTR_JOBS state="1">
+<Queue>CLIENT_QUEUE</Queue>
+<StartType/>
+<HostDst>CIT|RA_WEBSERVICE_3|HOST</HostDst>
+<HostATTR_Type>CIT</HostATTR_Type>
+<CodeName/>
+<Login/>
+<IntAccount/>
+<AutoDeactNo>0</AutoDeactNo>
+<AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<DeactWhen/>
+<DeactDelay>0</DeactDelay>
+<AutoDeactAlways>1</AutoDeactAlways>
+<AttDialog>0</AttDialog>
+<ActAtRun>1</ActAtRun>
+<Consumption>0</Consumption>
+<UC4Priority>0</UC4Priority>
+<MaxParallel2>0</MaxParallel2>
+<MpElse1>0</MpElse1>
+<MpElse2>0</MpElse2>
+<TZ/>
+</ATTR_JOBS>
+<ATTR_CIT state="1">
+<OutputDb>1</OutputDb>
+<OutputDbErr>0</OutputDbErr>
+<OutputFile>0</OutputFile>
+<OptReportPLOG>1</OptReportPLOG>
+<RequTaskParams>0</RequTaskParams>
+</ATTR_CIT>
+<CIT dirty="0" state="2">
+<citcont agentname="RA_WEBSERVICE_3" jobtype="WEBSERVICE" text="REST Web Service">
+<cit cittype="2" icon="" id="" subtype="REST" text="REST Web Service">
+<component con="0" enc="0" type="2" value="" xmlName="connectTimeout"/>
+<component con="0" enc="0" type="2" value="" xmlName="curl"/>
+<component con="0" enc="0" type="2" value="X-RequestDigest" xmlName="header_0_0"/>
+<component con="0" enc="0" type="2" value="0x74AFE5C4872C9D8191F9D91C4C6057549C3717987652E913AC14885EF7D5CFCD36F7AED9B5BFA179FD6EAEEA97FA3241787A7901CEB7F5E5C542FF3A6435A6B8,09 Jul 2013 21:34:30 -0000" xmlName="header_0_1"/>
+<component con="0" enc="0" type="2" value="If-Match" xmlName="header_1_0"/>
+<component con="0" enc="0" type="2" value="*" xmlName="header_1_1"/>
+<component con="0" enc="0" type="2" value="ContentType" xmlName="header_2_0"/>
+<component con="0" enc="0" type="2" value="application/json;odata=verbose" xmlName="header_2_1"/>
+<component con="0" enc="0" type="2" value="false" xmlName="isCurl"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobHeaders"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobQuery"/>
+<component con="0" enc="0" type="2" value="application/json;odata=verbose" xmlName="mediaType"/>
+<component con="0" enc="0" type="2" value="DELETE" xmlName="method"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPart"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPartResp"/>
+<component con="0" enc="0" type="2" value="" xmlName="request_part_0_file"/>
+<component con="0" enc="0" type="2" value="application/json;odata=verbose" xmlName="request_part_0_mediaType"/>
+<component con="0" enc="0" type="2" value="text" xmlName="request_part_0_requestDataSource"/>
+<component con="0" enc="0" type="2" value="A{&quot;__metadata&quot;:{&quot;type&quot;:&quot;SP.List&quot;},&quot;BaseTemplate&quot;:100,&quot;Title&quot;:&quot;changedlist2&amp;number#&quot;,&quot;Description&quot;:&quot;001 desc, changed&quot;}" xmlName="request_part_0_requestTab_data_1"/>
+<component con="0" enc="0" type="2" value="true" xmlName="requestReports"/>
+<component con="0" enc="0" type="2" value="lists(&amp;listid#)" xmlName="resource"/>
+<component con="0" enc="0" type="2" value="" xmlName="response_part_0_file"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseReport"/>
+<component con="0" enc="0" type="2" value="" xmlName="responseTimeout"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseToJobLog"/>
+<component con="1" enc="0" type="2" value="SHAREPOINT.REST.CONN.LIST_TEMPLATE" xmlName="restConnection"/>
+<component con="0" enc="0" type="2" value="" xmlName="showGeneralJobPanel"/>
+<component con="0" enc="0" type="2" value="false" xmlName="tracePerformance"/>
+</cit>
+<cit cittype="3" icon="" id="" subtype="GENERALJOBPANELDEF" text="General Job Panel"/>
+</citcont>
+</CIT>
+<RUNTIME state="1">
+<MaxRetCode>0</MaxRetCode>
+<MrcExecute/>
+<MrcElseE>0</MrcElseE>
+<FcstStatus>0| </FcstStatus>
+<Ert>6</Ert>
+<ErtMethodDef>1</ErtMethodDef>
+<ErtMethodFix>0</ErtMethodFix>
+<ErtFix>0</ErtFix>
+<ErtDynMethod>2|Average</ErtDynMethod>
+<ErtMethodDyn>0</ErtMethodDyn>
+<ErtCnt>0</ErtCnt>
+<ErtCorr>0</ErtCorr>
+<ErtIgn>0</ErtIgn>
+<ErtIgnFlg>0</ErtIgnFlg>
+<ErtMinCnt>0</ErtMinCnt>
+<MrtMethodNone>1</MrtMethodNone>
+<MrtMethodFix>0</MrtMethodFix>
+<MrtFix>0</MrtFix>
+<MrtMethodErt>0</MrtMethodErt>
+<MrtErt>0</MrtErt>
+<MrtMethodDate>0</MrtMethodDate>
+<MrtDays>0</MrtDays>
+<MrtTime>00:00</MrtTime>
+<MrtTZ/>
+<SrtMethodNone>1</SrtMethodNone>
+<SrtMethodFix>0</SrtMethodFix>
+<SrtFix>0</SrtFix>
+<SrtMethodErt>0</SrtMethodErt>
+<SrtErt>0</SrtErt>
+<MrtCancel>0</MrtCancel>
+<MrtExecute>0</MrtExecute>
+<MrtExecuteObj/>
+</RUNTIME>
+<DYNVALUES state="1">
+<dyntree>
+<node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
+<VALUE state="1">
+<Values/>
+<Mode>0</Mode>
+</VALUE>
+</node>
+</dyntree>
+</DYNVALUES>
+<ROLLBACK state="1" tidy="1">
+<RollbackFlag>0</RollbackFlag>
+<CBackupObj/>
+<CRollbackObj/>
+<FBackupPath/>
+<FDeleteBefore>0</FDeleteBefore>
+<FInclSubDirs>0</FInclSubDirs>
+</ROLLBACK>
+<PRE_SCRIPT mode="1" replacementmode="1" state="1" tidy="0">
+<PSCRI><![CDATA[:SET &number# = RANDOM(1, 100)]]></PSCRI>
+</PRE_SCRIPT>
+<SCRIPT mode="1" state="1" tidy="1">
+<MSCRI/>
+</SCRIPT>
+<OUTPUTSCAN state="1">
+<Inherit>N</Inherit>
+<filterobjects/>
+<HostFsc/>
+<LoginFsc/>
+</OUTPUTSCAN>
+<POST_SCRIPT mode="1" replacementmode="1" state="1" tidy="1">
+<OSCRI/>
+</POST_SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+<DOCU_Details- state="1" type="xml">
+<DOC/>
+</DOCU_Details->
+</JOBS_CIT>
+<JOBS_CIT AttrType="CIT" client="0100" name="SHAREPOINT.REST.GET_LISTS" system="AUTOMIC">
+<XHEADER state="1">
+<Title>Get all the sharepoints lists inside the site</Title>
+<Created>jenn pm on: 2013-10-01 15:44:28</Created>
+<Modified>jenn pm on: 2013-10-01 15:52:02      4 x</Modified>
+<LastUsed/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<ExtRepDef>1</ExtRepDef>
+<ExtRepAll>0</ExtRepAll>
+<ExtRepNone>0</ExtRepNone>
+<Active>1</Active>
+<OH_SubType/>
+</XHEADER>
+<OUTPUTREG state="1" tidy="1">
+<FileReg/>
+</OUTPUTREG>
+<SYNCREF state="1">
+<Syncs/>
+</SYNCREF>
+<ATTR_JOBS state="1">
+<Queue>CLIENT_QUEUE</Queue>
+<StartType/>
+<HostDst>CIT|RA_WEBSERVICE_3|HOST</HostDst>
+<HostATTR_Type>CIT</HostATTR_Type>
+<CodeName/>
+<Login/>
+<IntAccount/>
+<AutoDeactNo>0</AutoDeactNo>
+<AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<DeactWhen/>
+<DeactDelay>0</DeactDelay>
+<AutoDeactAlways>1</AutoDeactAlways>
+<AttDialog>0</AttDialog>
+<ActAtRun>0</ActAtRun>
+<Consumption>0</Consumption>
+<UC4Priority>0</UC4Priority>
+<MaxParallel2>0</MaxParallel2>
+<MpElse1>0</MpElse1>
+<MpElse2>0</MpElse2>
+<TZ/>
+</ATTR_JOBS>
+<ATTR_CIT state="1">
+<OutputDb>1</OutputDb>
+<OutputDbErr>0</OutputDbErr>
+<OutputFile>0</OutputFile>
+<OptReportPLOG>1</OptReportPLOG>
+<RequTaskParams>0</RequTaskParams>
+</ATTR_CIT>
+<CIT dirty="0" state="2">
+<citcont agentname="RA_WEBSERVICE_3" jobtype="WEBSERVICE" text="REST Web Service">
+<cit cittype="2" icon="" id="" subtype="REST" text="REST Web Service">
+<component con="0" enc="0" type="2" value="" xmlName="connectTimeout"/>
+<component con="0" enc="0" type="2" value="" xmlName="curl"/>
+<component con="0" enc="0" type="2" value="false" xmlName="isCurl"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobHeaders"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobQuery"/>
+<component con="0" enc="0" type="2" value="application/json" xmlName="mediaType"/>
+<component con="0" enc="0" type="2" value="GET" xmlName="method"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPart"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPartResp"/>
+<component con="0" enc="0" type="2" value="" xmlName="request_part_0_file"/>
+<component con="0" enc="0" type="2" value="application/json" xmlName="request_part_0_mediaType"/>
+<component con="0" enc="0" type="2" value="file" xmlName="request_part_0_requestDataSource"/>
+<component con="0" enc="0" type="2" value="true" xmlName="requestReports"/>
+<component con="0" enc="0" type="2" value="lists" xmlName="resource"/>
+<component con="0" enc="0" type="2" value="" xmlName="response_part_0_file"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseReport"/>
+<component con="0" enc="0" type="2" value="" xmlName="responseTimeout"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseToJobLog"/>
+<component con="1" enc="0" type="2" value="SHAREPOINT.REST.CONN.LIST_TEMPLATE" xmlName="restConnection"/>
+<component con="0" enc="0" type="2" value="" xmlName="showGeneralJobPanel"/>
+<component con="0" enc="0" type="2" value="false" xmlName="tracePerformance"/>
+</cit>
+<cit cittype="3" icon="" id="" subtype="GENERALJOBPANELDEF" text="General Job Panel"/>
+</citcont>
+</CIT>
+<RUNTIME state="1">
+<MaxRetCode>0</MaxRetCode>
+<MrcExecute/>
+<MrcElseE>0</MrcElseE>
+<FcstStatus>0| </FcstStatus>
+<Ert>2</Ert>
+<ErtMethodDef>1</ErtMethodDef>
+<ErtMethodFix>0</ErtMethodFix>
+<ErtFix>0</ErtFix>
+<ErtDynMethod>2|Average</ErtDynMethod>
+<ErtMethodDyn>0</ErtMethodDyn>
+<ErtCnt>0</ErtCnt>
+<ErtCorr>0</ErtCorr>
+<ErtIgn>0</ErtIgn>
+<ErtIgnFlg>0</ErtIgnFlg>
+<ErtMinCnt>0</ErtMinCnt>
+<MrtMethodNone>1</MrtMethodNone>
+<MrtMethodFix>0</MrtMethodFix>
+<MrtFix>0</MrtFix>
+<MrtMethodErt>0</MrtMethodErt>
+<MrtErt>0</MrtErt>
+<MrtMethodDate>0</MrtMethodDate>
+<MrtDays>0</MrtDays>
+<MrtTime>00:00</MrtTime>
+<MrtTZ/>
+<SrtMethodNone>1</SrtMethodNone>
+<SrtMethodFix>0</SrtMethodFix>
+<SrtFix>0</SrtFix>
+<SrtMethodErt>0</SrtMethodErt>
+<SrtErt>0</SrtErt>
+<MrtCancel>0</MrtCancel>
+<MrtExecute>0</MrtExecute>
+<MrtExecuteObj/>
+</RUNTIME>
+<DYNVALUES state="1">
+<dyntree>
+<node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
+<VALUE state="1">
+<Values/>
+<Mode>0</Mode>
+</VALUE>
+</node>
+</dyntree>
+</DYNVALUES>
+<ROLLBACK state="1" tidy="1">
+<RollbackFlag>0</RollbackFlag>
+<CBackupObj/>
+<CRollbackObj/>
+<FBackupPath/>
+<FDeleteBefore>0</FDeleteBefore>
+<FInclSubDirs>0</FInclSubDirs>
+</ROLLBACK>
+<PRE_SCRIPT mode="1" replacementmode="1" state="1" tidy="1">
+<PSCRI/>
+</PRE_SCRIPT>
+<SCRIPT mode="1" state="1" tidy="1">
+<MSCRI/>
+</SCRIPT>
+<OUTPUTSCAN state="1">
+<Inherit>N</Inherit>
+<filterobjects/>
+<HostFsc/>
+<LoginFsc/>
+</OUTPUTSCAN>
+<POST_SCRIPT mode="1" replacementmode="1" state="1" tidy="1">
+<OSCRI/>
+</POST_SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+<DOCU_Details- state="1" type="xml">
+<DOC/>
+</DOCU_Details->
+</JOBS_CIT>
+<JOBS_CIT AttrType="CIT" client="0100" name="SHAREPOINT.REST.GET_SITE" system="AUTOMIC">
+<XHEADER state="1">
+<Title>Get a sharepoint site</Title>
+<Created>jenn pm on: 2013-10-01 15:59:17</Created>
+<Modified>jenn pm on: 2013-10-01 15:59:58      2 x</Modified>
+<LastUsed/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<ExtRepDef>1</ExtRepDef>
+<ExtRepAll>0</ExtRepAll>
+<ExtRepNone>0</ExtRepNone>
+<Active>1</Active>
+<OH_SubType/>
+</XHEADER>
+<OUTPUTREG state="1" tidy="1">
+<FileReg/>
+</OUTPUTREG>
+<SYNCREF state="1">
+<Syncs/>
+</SYNCREF>
+<ATTR_JOBS state="1">
+<Queue>CLIENT_QUEUE</Queue>
+<StartType/>
+<HostDst>CIT|RA_WEBSERVICE_3|HOST</HostDst>
+<HostATTR_Type>CIT</HostATTR_Type>
+<CodeName/>
+<Login/>
+<IntAccount/>
+<AutoDeactNo>0</AutoDeactNo>
+<AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<DeactWhen/>
+<DeactDelay>0</DeactDelay>
+<AutoDeactAlways>1</AutoDeactAlways>
+<AttDialog>0</AttDialog>
+<ActAtRun>0</ActAtRun>
+<Consumption>0</Consumption>
+<UC4Priority>0</UC4Priority>
+<MaxParallel2>0</MaxParallel2>
+<MpElse1>0</MpElse1>
+<MpElse2>0</MpElse2>
+<TZ/>
+</ATTR_JOBS>
+<ATTR_CIT state="1">
+<OutputDb>1</OutputDb>
+<OutputDbErr>0</OutputDbErr>
+<OutputFile>0</OutputFile>
+<OptReportPLOG>1</OptReportPLOG>
+<RequTaskParams>0</RequTaskParams>
+</ATTR_CIT>
+<CIT dirty="0" state="2">
+<citcont agentname="RA_WEBSERVICE_3" jobtype="WEBSERVICE" text="REST Web Service">
+<cit cittype="2" icon="" id="" subtype="REST" text="REST Web Service">
+<component con="0" enc="0" type="2" value="" xmlName="connectTimeout"/>
+<component con="0" enc="0" type="2" value="" xmlName="curl"/>
+<component con="0" enc="0" type="2" value="false" xmlName="isCurl"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobHeaders"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobQuery"/>
+<component con="0" enc="0" type="2" value="application/json" xmlName="mediaType"/>
+<component con="0" enc="0" type="2" value="GET" xmlName="method"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPart"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPartResp"/>
+<component con="0" enc="0" type="2" value="" xmlName="request_part_0_file"/>
+<component con="0" enc="0" type="2" value="application/json" xmlName="request_part_0_mediaType"/>
+<component con="0" enc="0" type="2" value="file" xmlName="request_part_0_requestDataSource"/>
+<component con="0" enc="0" type="2" value="true" xmlName="requestReports"/>
+<component con="0" enc="0" type="2" value="site" xmlName="resource"/>
+<component con="0" enc="0" type="2" value="" xmlName="response_part_0_file"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseReport"/>
+<component con="0" enc="0" type="2" value="" xmlName="responseTimeout"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseToJobLog"/>
+<component con="1" enc="0" type="2" value="SHAREPOINT.REST.CONN.CORE_TEMPLATE" xmlName="restConnection"/>
+<component con="0" enc="0" type="2" value="" xmlName="showGeneralJobPanel"/>
+<component con="0" enc="0" type="2" value="false" xmlName="tracePerformance"/>
+</cit>
+<cit cittype="3" icon="" id="" subtype="GENERALJOBPANELDEF" text="General Job Panel"/>
+</citcont>
+</CIT>
+<RUNTIME state="1">
+<MaxRetCode>0</MaxRetCode>
+<MrcExecute/>
+<MrcElseE>0</MrcElseE>
+<FcstStatus>0| </FcstStatus>
+<Ert>1</Ert>
+<ErtMethodDef>1</ErtMethodDef>
+<ErtMethodFix>0</ErtMethodFix>
+<ErtFix>0</ErtFix>
+<ErtDynMethod>2|Average</ErtDynMethod>
+<ErtMethodDyn>0</ErtMethodDyn>
+<ErtCnt>0</ErtCnt>
+<ErtCorr>0</ErtCorr>
+<ErtIgn>0</ErtIgn>
+<ErtIgnFlg>0</ErtIgnFlg>
+<ErtMinCnt>0</ErtMinCnt>
+<MrtMethodNone>1</MrtMethodNone>
+<MrtMethodFix>0</MrtMethodFix>
+<MrtFix>0</MrtFix>
+<MrtMethodErt>0</MrtMethodErt>
+<MrtErt>0</MrtErt>
+<MrtMethodDate>0</MrtMethodDate>
+<MrtDays>0</MrtDays>
+<MrtTime>00:00</MrtTime>
+<MrtTZ/>
+<SrtMethodNone>1</SrtMethodNone>
+<SrtMethodFix>0</SrtMethodFix>
+<SrtFix>0</SrtFix>
+<SrtMethodErt>0</SrtMethodErt>
+<SrtErt>0</SrtErt>
+<MrtCancel>0</MrtCancel>
+<MrtExecute>0</MrtExecute>
+<MrtExecuteObj/>
+</RUNTIME>
+<DYNVALUES state="1">
+<dyntree>
+<node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
+<VALUE state="1">
+<Values/>
+<Mode>0</Mode>
+</VALUE>
+</node>
+</dyntree>
+</DYNVALUES>
+<ROLLBACK state="1" tidy="1">
+<RollbackFlag>0</RollbackFlag>
+<CBackupObj/>
+<CRollbackObj/>
+<FBackupPath/>
+<FDeleteBefore>0</FDeleteBefore>
+<FInclSubDirs>0</FInclSubDirs>
+</ROLLBACK>
+<PRE_SCRIPT mode="1" replacementmode="1" state="1" tidy="1">
+<PSCRI/>
+</PRE_SCRIPT>
+<SCRIPT mode="1" state="1" tidy="1">
+<MSCRI/>
+</SCRIPT>
+<OUTPUTSCAN state="1">
+<Inherit>N</Inherit>
+<filterobjects/>
+<HostFsc/>
+<LoginFsc/>
+</OUTPUTSCAN>
+<POST_SCRIPT mode="1" replacementmode="1" state="1" tidy="1">
+<OSCRI/>
+</POST_SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+<DOCU_Details- state="1" type="xml">
+<DOC/>
+</DOCU_Details->
+</JOBS_CIT>
+<JOBS_CIT AttrType="CIT" client="0100" name="SHAREPOINT.REST.UPDATE_LIST" system="AUTOMIC">
+<XHEADER state="1">
+<Title>Updates the sharepoint list with the provided ID.</Title>
+<Created>jenn pm on: 2013-10-01 15:49:07</Created>
+<Modified>jenn pm on: 2013-10-01 15:52:02      2 x</Modified>
+<LastUsed/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<ExtRepDef>1</ExtRepDef>
+<ExtRepAll>0</ExtRepAll>
+<ExtRepNone>0</ExtRepNone>
+<Active>1</Active>
+<OH_SubType/>
+</XHEADER>
+<OUTPUTREG state="1" tidy="1">
+<FileReg/>
+</OUTPUTREG>
+<SYNCREF state="1">
+<Syncs/>
+</SYNCREF>
+<ATTR_JOBS state="1">
+<Queue>CLIENT_QUEUE</Queue>
+<StartType/>
+<HostDst>CIT|RA_WEBSERVICE_3|HOST</HostDst>
+<HostATTR_Type>CIT</HostATTR_Type>
+<CodeName/>
+<Login/>
+<IntAccount/>
+<AutoDeactNo>0</AutoDeactNo>
+<AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+<AutoDeactErrorFree>0</AutoDeactErrorFree>
+<DeactWhen/>
+<DeactDelay>0</DeactDelay>
+<AutoDeactAlways>1</AutoDeactAlways>
+<AttDialog>0</AttDialog>
+<ActAtRun>1</ActAtRun>
+<Consumption>0</Consumption>
+<UC4Priority>0</UC4Priority>
+<MaxParallel2>0</MaxParallel2>
+<MpElse1>0</MpElse1>
+<MpElse2>0</MpElse2>
+<TZ/>
+</ATTR_JOBS>
+<ATTR_CIT state="1">
+<OutputDb>1</OutputDb>
+<OutputDbErr>0</OutputDbErr>
+<OutputFile>0</OutputFile>
+<OptReportPLOG>1</OptReportPLOG>
+<RequTaskParams>0</RequTaskParams>
+</ATTR_CIT>
+<CIT dirty="0" state="2">
+<citcont agentname="RA_WEBSERVICE_3" jobtype="WEBSERVICE" text="REST Web Service">
+<cit cittype="2" icon="" id="" subtype="REST" text="REST Web Service">
+<component con="0" enc="0" type="2" value="" xmlName="connectTimeout"/>
+<component con="0" enc="0" type="2" value="" xmlName="curl"/>
+<component con="0" enc="0" type="2" value="X-RequestDigest" xmlName="header_0_0"/>
+<component con="0" enc="0" type="2" value="0x74AFE5C4872C9D8191F9D91C4C6057549C3717987652E913AC14885EF7D5CFCD36F7AED9B5BFA179FD6EAEEA97FA3241787A7901CEB7F5E5C542FF3A6435A6B8,09 Jul 2013 21:34:30 -0000" xmlName="header_0_1"/>
+<component con="0" enc="0" type="2" value="If-Match" xmlName="header_1_0"/>
+<component con="0" enc="0" type="2" value="*" xmlName="header_1_1"/>
+<component con="0" enc="0" type="2" value="ContentType" xmlName="header_2_0"/>
+<component con="0" enc="0" type="2" value="application/json;odata=verbose" xmlName="header_2_1"/>
+<component con="0" enc="0" type="2" value="false" xmlName="isCurl"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobHeaders"/>
+<component con="0" enc="0" type="2" value="false" xmlName="jobQuery"/>
+<component con="0" enc="0" type="2" value="application/json;odata=verbose" xmlName="mediaType"/>
+<component con="0" enc="0" type="2" value="POST" xmlName="method"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPart"/>
+<component con="0" enc="0" type="2" value="false" xmlName="multiPartResp"/>
+<component con="0" enc="0" type="2" value="" xmlName="request_part_0_file"/>
+<component con="0" enc="0" type="2" value="application/json;odata=verbose" xmlName="request_part_0_mediaType"/>
+<component con="0" enc="0" type="2" value="text" xmlName="request_part_0_requestDataSource"/>
+<component con="0" enc="0" type="2" value="A{&quot;__metadata&quot;:{&quot;type&quot;:&quot;SP.List&quot;},&quot;BaseTemplate&quot;:100,&quot;Title&quot;:&quot;changedlist2&amp;number#&quot;,&quot;Description&quot;:&quot;001 desc, changed&quot;}" xmlName="request_part_0_requestTab_data_1"/>
+<component con="0" enc="0" type="2" value="true" xmlName="requestReports"/>
+<component con="0" enc="0" type="2" value="lists(&amp;listid#)" xmlName="resource"/>
+<component con="0" enc="0" type="2" value="" xmlName="response_part_0_file"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseReport"/>
+<component con="0" enc="0" type="2" value="" xmlName="responseTimeout"/>
+<component con="0" enc="0" type="2" value="true" xmlName="responseToJobLog"/>
+<component con="1" enc="0" type="2" value="SHAREPOINT.REST.CONN.LIST_TEMPLATE" xmlName="restConnection"/>
+<component con="0" enc="0" type="2" value="" xmlName="showGeneralJobPanel"/>
+<component con="0" enc="0" type="2" value="false" xmlName="tracePerformance"/>
+</cit>
+<cit cittype="3" icon="" id="" subtype="GENERALJOBPANELDEF" text="General Job Panel"/>
+</citcont>
+</CIT>
+<RUNTIME state="1">
+<MaxRetCode>0</MaxRetCode>
+<MrcExecute/>
+<MrcElseE>0</MrcElseE>
+<FcstStatus>0| </FcstStatus>
+<Ert>6</Ert>
+<ErtMethodDef>1</ErtMethodDef>
+<ErtMethodFix>0</ErtMethodFix>
+<ErtFix>0</ErtFix>
+<ErtDynMethod>2|Average</ErtDynMethod>
+<ErtMethodDyn>0</ErtMethodDyn>
+<ErtCnt>0</ErtCnt>
+<ErtCorr>0</ErtCorr>
+<ErtIgn>0</ErtIgn>
+<ErtIgnFlg>0</ErtIgnFlg>
+<ErtMinCnt>0</ErtMinCnt>
+<MrtMethodNone>1</MrtMethodNone>
+<MrtMethodFix>0</MrtMethodFix>
+<MrtFix>0</MrtFix>
+<MrtMethodErt>0</MrtMethodErt>
+<MrtErt>0</MrtErt>
+<MrtMethodDate>0</MrtMethodDate>
+<MrtDays>0</MrtDays>
+<MrtTime>00:00</MrtTime>
+<MrtTZ/>
+<SrtMethodNone>1</SrtMethodNone>
+<SrtMethodFix>0</SrtMethodFix>
+<SrtFix>0</SrtFix>
+<SrtMethodErt>0</SrtMethodErt>
+<SrtErt>0</SrtErt>
+<MrtCancel>0</MrtCancel>
+<MrtExecute>0</MrtExecute>
+<MrtExecuteObj/>
+</RUNTIME>
+<DYNVALUES state="1">
+<dyntree>
+<node content="1" id="VALUE" name="Variables" parent="" type="VALUE">
+<VALUE state="1">
+<Values/>
+<Mode>0</Mode>
+</VALUE>
+</node>
+</dyntree>
+</DYNVALUES>
+<ROLLBACK state="1" tidy="1">
+<RollbackFlag>0</RollbackFlag>
+<CBackupObj/>
+<CRollbackObj/>
+<FBackupPath/>
+<FDeleteBefore>0</FDeleteBefore>
+<FInclSubDirs>0</FInclSubDirs>
+</ROLLBACK>
+<PRE_SCRIPT mode="1" replacementmode="1" state="1" tidy="0">
+<PSCRI><![CDATA[:SET &number# = RANDOM(1, 100)]]></PSCRI>
+</PRE_SCRIPT>
+<SCRIPT mode="1" state="1" tidy="1">
+<MSCRI/>
+</SCRIPT>
+<OUTPUTSCAN state="1">
+<Inherit>N</Inherit>
+<filterobjects/>
+<HostFsc/>
+<LoginFsc/>
+</OUTPUTSCAN>
+<POST_SCRIPT mode="1" replacementmode="1" state="1" tidy="1">
+<OSCRI/>
+</POST_SCRIPT>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+<DOCU_Details- state="1" type="xml">
+<DOC/>
+</DOCU_Details->
+</JOBS_CIT>
+</uc-export>
