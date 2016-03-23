@@ -25,7 +25,7 @@ Contents of Solution Package:
 Documenation and Instructions
 ---
 
-<p><img style="float: right;" src="https://4232ede8026b4f991cb1-5ae67ba1cd4fb41880d908fe138fa0c3.ssl.cf1.rackcdn.com/images/logos/logo_sharepoint_2013.png" alt="" width="150" /></p>
+<p><img style="float: right; max-width: 150px; padding-left: 20px;" src="https://4232ede8026b4f991cb1-5ae67ba1cd4fb41880d908fe138fa0c3.ssl.cf1.rackcdn.com/images/logos/logo_sharepoint_2013.png" alt="" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Exports contains examples of Sharepoint 2013 REST jobs for Web Service . Two example Connection Objects are also included, List-releated Endpoints and Core Endpoints.</p>
